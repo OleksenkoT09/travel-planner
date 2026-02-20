@@ -41,7 +41,7 @@ travel-planner/
 
 ```bash
 # 1. Клонувати репозиторій
-git clone https://github.com/ВАШ_ЮЗЕР/travel-planner.git
+git clone https://github.com/OleksenkoT09/travel-planner.gi
 cd travel-planner
 
 # 2. Створити та активувати віртуальне середовище
