@@ -1,4 +1,18 @@
->venv/
+# Virtual Environment
+venv/
 __pycache__/
 *.pyc
-.env
+*.pyo
+
+# Database
+travel.db
+*.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log

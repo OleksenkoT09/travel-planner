@@ -18,7 +18,10 @@ from database import engine
 # Створення таблиць при запуску (можна прибрати, якщо використовуєш test_db.py)
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Travel Planner API")
+app = FastAPI(
+    title="Travel Planner API",
+    redirect_slashes=False
+    )
 
 # Ендпоінти для Projects
 @app.post("/projects/", response_model=ProjectResponse)
